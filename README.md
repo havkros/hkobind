@@ -1,5 +1,6 @@
 # hkobind
-Minimal Bind9 Dockerized. 10.2MB...
+Minimal Bind9 Dockerized. Based on Alpine Linux.. A mere 10.2MB...
+
 
 Build: 
 
