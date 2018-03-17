@@ -1,0 +1,9 @@
+$TTL 3D
+@      IN      SOA     core.testlab.local. hostmaster.testlab.local. (
+                        1       ; Serial
+                        8H      ; Refresh
+                        2H      ; Retry
+                        4W      ; Expire
+                        1D)     ; Minimum TTL
+                NS      core.testlab.local.
+1               PTR     localhost.

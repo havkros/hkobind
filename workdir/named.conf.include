@@ -1,0 +1,14 @@
+zone "testlab.local" in {
+        file "db.testlab.local";
+        type master;
+	allow-transfer { none; };
+	allow-update {none; };
+};
+
+zone "200.168.192.in-addr.arpa" in {
+        type master;
+        file "db.200.168.192";
+	allow-transfer { none; };
+	allow-update {none; };
+};
+

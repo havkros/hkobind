@@ -1,0 +1,13 @@
+; BIND reverse data file for empty rfc1918 zone
+;
+$TTL	86400
+@       IN      SOA     core. root.testlab.local (
+			      1 	; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			  86400 ) 	;Negative Cache TTL 
+ 
+@ IN NS core.testlab.local.
+
+4		IN 	PTR 	core.testlab.local. 

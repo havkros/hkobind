@@ -1,0 +1,14 @@
+;
+; BIND data file for testlab.local
+;
+$TTL	86400
+@	IN	SOA	core. root.testlab.local (
+			     1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+;@	IN	AAAA	::1
+@	IN	NS	core.testlab.local.
+core	IN 	A	192.168.200.4
