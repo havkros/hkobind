@@ -1,8 +1,13 @@
 # hkobind
 Bind9 Dockerized
 
-Build: docker build -t hkobind .
-Run: docker run -it -p 53:53 hkobind
+Build: 
+
+	docker build -t hkobind .
+	
+Run: 
+
+	docker run -it -p 53:53 hkobind
 
 Test: 
 
