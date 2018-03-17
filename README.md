@@ -1,5 +1,5 @@
 # hkobind
-Bind9 Dockerized
+Minimal Bind9 Dockerized. 10.2MB...
 
 Build: 
 
