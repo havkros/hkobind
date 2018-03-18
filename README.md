@@ -3,16 +3,19 @@ Minimal Bind9 Dockerized. Based on Alpine Linux.
 
 Note that 172.17.0.2 is the IP address of my own bind9 container. It might be different from your container, so please update the instructions below with your own container IP address.
 
+## Instructions
 
-Build: 
+1. Pull git project using git clone
+
+2. Build the docker image: 
 
 	docker build -t hkobind .
 	
-Run: 
+3. Run the Docker container: 
 
 	docker run -it -p 53:53 hkobind
 
-Test: 
+4. Test that the bind9 DNS server is working by opening a terminal on your Docker host and execute the following commands: 
 
 	nslookup core.testlab.local 172.17.0.2
 
