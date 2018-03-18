@@ -1,5 +1,7 @@
 # hkobind
-Minimal Bind9 Dockerized. Based on Alpine Linux.. Only 10.2MB...
+Minimal Bind9 Dockerized. Based on Alpine Linux.
+
+Note that 172.17.0.2 is the IP address of my own bind9 container. It might be different from your container, so please update the instructions below with your own container IP address.
 
 
 Build: 
