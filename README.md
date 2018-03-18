@@ -23,7 +23,7 @@ Note that 172.17.0.2 is the IP address of my own bind9 container. It might be di
 
 ## Virtual machine environment
 
-If your Docker host is a VM and you wish to perform DNS queries from the virtualization host (e.g. a Mac or Windows 10) into the VM and the Bind9 Docker container you must add these iptables rules inside the Docker host VM:
+If your Docker host is a VM and you wish to perform DNS queries from the virtualization host (e.g. a Mac or Windows 10) into the VM, and forward it to the Bind9 Docker container, you must add these iptables rules inside the Docker host VM:
 
 	sysctl net.ipv4.conf.all.forwarding=1
 
